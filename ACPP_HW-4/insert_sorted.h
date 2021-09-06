@@ -1,6 +1,4 @@
 #pragma once
-#include <vector>
-
 
 template <class Container, class T>
 void insert_sorted(Container& vect, T num)
