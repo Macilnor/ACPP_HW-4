@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="ACPP_HW-4.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="insert_sorted.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
