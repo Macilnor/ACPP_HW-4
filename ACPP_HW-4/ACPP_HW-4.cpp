@@ -32,7 +32,7 @@ int main()
 	std::cout << std::endl;
 
 	std::vector<int> digital(100);
-	std::transform(analog.begin(), analog.end(), digital.begin(), [](double i) {return (int)i; });
+	std::transform(analog.begin(), analog.end(), digital.begin(), [](double i) {return (int)std::round(i); });
 	std::cout << "Digital signal:" << std::endl;
 	std::copy(digital.begin(), digital.end(), std::ostream_iterator<int>{std::cout, " "});
 	std::cout << std::endl;
